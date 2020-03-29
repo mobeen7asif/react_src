@@ -1,0 +1,309 @@
+.wr-chart-big.wr-chart-container
+{
+    width: 225px;
+    height: 217px;
+    position: relative;
+    margin: auto;
+
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-left,.wr-chart-big.wr-chart-container .wr-chart-right
+{
+    position: absolute;
+    height: 217px;
+    width: 110px;
+    z-index: 0;
+    background-image: linear-gradient(top, rgb(189,200,202), rgb(189,200,202) 85%, transparent 85%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(189,200,202), rgb(189,200,202) 85%, transparent 85%, transparent 100%);
+    background-image: -moz-linear-gradient(top, rgb(189,200,202), rgb(189,200,202) 85%, transparent 85%, transparent 100%);
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-left {
+
+    left: 0;
+    border-bottom-left-radius: 110px;
+    border-top-left-radius: 110px;
+
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-right
+{
+    right: 0;
+    border-bottom-right-radius: 110px;
+    border-top-right-radius: 110px;
+
+}
+
+.wr-chart-big.wr-chart-container .custom-left
+{
+    z-index: 1;
+    background-image: linear-gradient(top, rgb(227,74,76), rgb(227,74,76) 0%, transparent 0%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(227,74,76), rgb(227,74,76) 0%, transparent 0%, transparent 100%);
+    background-image: -moz-linear-gradient(top, rgb(227,74,76), rgb(227,74,76) 0%, transparent 0%, transparent 100%);
+}
+.wr-chart-big.wr-chart-container .custom-right
+{
+    z-index: 1;
+    background-image: linear-gradient(top, rgb(147,191,106), rgb(147,191,106) 0%, transparent 0%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(147,191,106), rgb(147,191,106) 0%, transparent 0%, transparent 100%);
+    background-image: -moz-linear-gradient(top, rgb(147,191,106), rgb(147,191,106) 0%, transparent 0%, transparent 100%);
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-circle{
+    background: white !important;
+    border-radius: 110px;
+    height: 185px;
+    left: 12px;
+    position: absolute;
+    top: 15px;
+    width: 200px;
+    z-index: 2;
+    color:rgb(189,200,202);
+    text-align: center;
+
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-button
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:34px;
+
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-button div a{
+    font-size: 20px;
+    color: #b4bcbf;
+    text-decoration: none;
+}
+.wr-chart-big.wr-chart-container .wr-chart-button div
+{
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wr-chart-big.wr-chart-container .wr-p-container
+{
+    margin-top:45px;
+}
+.wr-chart-big.wr-chart-container .percent-num
+{
+    font-size: 60px;
+}
+.wr-chart-big.wr-chart-container .percent-text
+{
+    font-size: 30px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.wr-chart-small.wr-chart-container
+{
+    height: 159px;
+    margin: auto;
+    position: relative;
+    width: 160px;
+    font-family: "nunito_sansbold";
+}
+
+.wr-chart-small.wr-chart-container .wr-chart-left,.wr-chart-small.wr-chart-container .wr-chart-right
+{
+    height: 152px;
+    position: absolute;
+    width: 79px;
+    z-index: 0;
+    background-image: linear-gradient(top, rgb(189,200,202), rgb(189,200,202) 85%, transparent 85%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(189,200,202), rgb(189,200,202) 85%, transparent 85%, transparent 100%);
+    background-image: -moz-linear-gradient(top, rgb(189,200,202), rgb(189,200,202) 85%, transparent 85%, transparent 100%);
+}
+
+.wr-chart-small.wr-chart-container .wr-chart-left {
+
+    left: 0;
+    border-bottom-left-radius: 75px;
+    border-top-left-radius: 75px;
+
+}
+
+.wr-chart-small.wr-chart-container .wr-chart-right
+{
+    right: 0;
+    border-bottom-right-radius: 75px;
+    border-top-right-radius: 75px;
+
+}
+
+.wr-chart-small.wr-chart-container .custom-left
+{
+    z-index: 1;
+    background-image: linear-gradient(top, rgb(227,74,76), rgb(227,74,76) 0%, transparent 0%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(227,74,76), rgb(227,74,76) 0%, transparent 0%, transparent 100%);
+    background-image: -moz-linear-gradient(top, rgb(227,74,76), rgb(227,74,76) 0%, transparent 0%, transparent 100%);
+}
+.wr-chart-small.wr-chart-container .custom-right
+{
+    z-index: 1;
+    background-image: linear-gradient(top, rgb(147,191,106), rgb(147,191,106) 0%, transparent 0%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(147,191,106), rgb(147,191,106) 0%, transparent 0%, transparent 100%);
+    background-image: -moz-linear-gradient(top, rgb(147,191,106), rgb(147,191,106) 0%, transparent 0%, transparent 100%);
+}
+
+.wr-chart-small.wr-chart-container .wr-chart-circle{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-radius: 75px;
+    color: rgb(189, 200, 202);
+    height: 138px;
+    left: 11px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 138px;
+    z-index: 2;
+
+}
+
+.wr-chart-small.wr-chart-container .wr-chart-button
+{
+    bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.wr-chart-small.wr-chart-container .wr-chart-button div a{
+    
+    color: #b4bcbf;
+    text-decoration: none;
+}
+.wr-chart-small.wr-chart-container .wr-chart-button div
+{
+   box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+
+.wr-chart-small.wr-chart-container .wr-p-container
+{
+    margin-top:27px;
+}
+.wr-chart-small.wr-chart-container .percent-num
+{
+    font-size: 45px;
+}
+.wr-chart-small.wr-chart-container .percent-text
+{
+    font-size: 25px;
+}
+
+
+
+.wr-chart-big.wr-chart-container .wr-chart-button div,.wr-chart-small.wr-chart-container .wr-chart-button div{ position: relative; padding-top: 6px;  }
+
+.wr-chart-big.wr-chart-container .wr-chart-button div:after {
+     background: #f1f5f6 ;
+    
+    content: "";
+    height: 15px;
+    left: 32px;
+    position: absolute;
+    top: -6px;
+    transform: rotate(-47deg);
+    width: 22px;
+     z-index: 10;
+    background: white !important;
+}
+
+.wr-chart-big.wr-chart-container .wr-chart-button div:last-child::after {
+   
+    height: 16px;
+    left: 56px;
+    top: -5px;
+    width: 22px;   transform: rotate(-42deg);
+     z-index: 10;
+    background: white !important;
+}
+
+
+
+.wr-chart-small.wr-chart-container .wr-chart-button div::after {
+    background: #fff;
+    content: "";
+    height: 15px;
+    left: 18px;
+    position: absolute;
+    top: -6px;
+    transform: rotate(-47deg);
+    width: 17px;
+    z-index: 10;
+}
+ .wr-chart-small.wr-chart-container .wr-chart-button div:last-child::after {
+    height: 16px;
+    left: 51px;
+    top: -8px;
+    transform: rotate(-42deg);
+    width: 13px;
+    z-index: 10;
+}
+
+
+
+.wr-chart-circle p { font-size: 14px; padding: 35px 38px 0px;}
+
+.wr-chart-big.wr-chart-container .wr-p-container { margin-top: 35px;}
+
+
+.GaugeMeter B { font-weight: bold !important;font-size: 15px !important; color:#617283 !important; padding-left: 0px !important;text-align: center !important; line-height: 20px !important;padding-top: 60px;}
+.GaugeMeter B p { padding-bottom:3px !important;;font-weight: normal !important;font-size: 16px !important; color:#617283 !important; display: block !important; text-align: center !important; line-height: 22px !important; border-bottom: 1px solid #e4e7ec !important;}
+.GaugeMeter SPAN { padding-top: 15px !important;}
+
+.menber_chard .left_span_0 { font-size: 14px !important; font-weight: 700 !important; letter-spacing: 2px !important; color: #617283 !important;}
+.menber_chard .right_span_100 { font-size: 14px !important; font-weight: 700 !important; letter-spacing: 2px !important; color: #617283 !important;}
+
+
+.point_member .GaugeMeter B { padding-top: 42px; font-size: 0px !important;}
+
+.point_member .GaugeMeter SPAN { font-size: 36px !important}
+.point_member .GaugeMeter SPAN u { font-size: 36px !important}
+
+
+
+.wr-chart-big.wr-chart-container .percent-num {font-size: 48px !important; font-weight: 300 !important;}
+
+
+.plus_icon {vertical-align: top; margin-top: 25px;margin-right: 3px !important; font-size: 0px !important; background:url("../assets/images/arrowPlus@2x.png") no-repeat !important; background-size: 20px 9px !important; width: 20px; height: 9px; display: inline-block;}
+.minus_icon {vertical-align: top; margin-top: 21px; margin-right: 3px !important; font-size: 0px !important; background:url("../assets/images/arrowMinus@2x.png") no-repeat !important; background-size: 20px 9px !important; width: 20px; height: 9px; display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

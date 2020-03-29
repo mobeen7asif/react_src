@@ -1,0 +1,64 @@
+UPDATE campaigns SET company_id=5 WHERE company_id=1;
+
+UPDATE `segment` SET company_id=5 WHERE company_id=1;
+
+UPDATE `users` SET company_id=5 WHERE company_id=1;
+
+UPDATE `venues` SET company_id=5 WHERE company_id=1;
+
+UPDATE  `punch_cards` SET company_id=5 WHERE company_id=1;
+
+//--------------------------------------------------------------//
+POST engage-gbk/_update_by_query
+{
+  "script": {
+    "source": "ctx['_source']['company_id'] =5 "
+  },
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "custom_doc_type": {
+              "value": "user_integrated_voucher"
+            }
+          }
+        },{
+          "term": {
+            "company_id": {
+              "value": "1"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+//............................................................................//
+
+POST engage-gbk/_update_by_query
+{
+  "script": {
+    "source": "ctx['_source']['company_id'] =5;ctx['_source']['punch_card_rule']['company_id']=5 "
+  },
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "custom_doc_type": {
+              "value": "punch_card"
+            }
+          }
+        },{
+          "term": {
+            "company_id": {
+              "value": "1"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

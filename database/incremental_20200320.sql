@@ -1,0 +1,2 @@
+ALTER TABLE `users` ADD COLUMN `address2` VARCHAR(255) NULL;
+ALTER TABLE `campaigns` ADD COLUMN `target_user` VARCHAR(220) NULL;

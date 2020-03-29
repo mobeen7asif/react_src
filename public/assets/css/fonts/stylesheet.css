@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('MuseoSans-500.woff2') format('woff2'),
+        url('MuseoSans-500.woff') format('woff'),
+        url('MuseoSans-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('MuseoSans-300.woff2') format('woff2'),
+        url('MuseoSans-300.woff') format('woff'),
+        url('MuseoSans-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('MuseoSans-100.woff2') format('woff2'),
+        url('MuseoSans-100.woff') format('woff'),
+        url('MuseoSans-100.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('MuseoSans-700.woff2') format('woff2'),
+        url('MuseoSans-700.woff') format('woff'),
+        url('MuseoSans-700.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Museo Slab 100';
+    src: url('MuseoSlab-100Italic.woff2') format('woff2'),
+        url('MuseoSlab-100Italic.woff') format('woff'),
+        url('MuseoSlab-100Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Slab 1000';
+    src: url('MuseoSlab-1000.woff2') format('woff2'),
+        url('MuseoSlab-1000.woff') format('woff'),
+        url('MuseoSlab-1000.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 900';
+    src: url('MuseoSlab-900Italic.woff2') format('woff2'),
+        url('MuseoSlab-900Italic.woff') format('woff'),
+        url('MuseoSlab-900Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Slab 300';
+    src: url('MuseoSlab-300.woff2') format('woff2'),
+        url('MuseoSlab-300.woff') format('woff'),
+        url('MuseoSlab-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 700';
+    src: url('MuseoSlab-700.woff2') format('woff2'),
+        url('MuseoSlab-700.woff') format('woff'),
+        url('MuseoSlab-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 700';
+    src: url('MuseoSlab-700Italic.woff2') format('woff2'),
+        url('MuseoSlab-700Italic.woff') format('woff'),
+        url('MuseoSlab-700Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Slab 300';
+    src: url('MuseoSlab-300Italic.woff2') format('woff2'),
+        url('MuseoSlab-300Italic.woff') format('woff'),
+        url('MuseoSlab-300Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Slab 1000';
+    src: url('MuseoSlab-1000Italic.woff2') format('woff2'),
+        url('MuseoSlab-1000Italic.woff') format('woff'),
+        url('MuseoSlab-1000Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Slab 900';
+    src: url('MuseoSlab-900.woff2') format('woff2'),
+        url('MuseoSlab-900.woff') format('woff'),
+        url('MuseoSlab-900.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 100';
+    src: url('MuseoSlab-100.woff2') format('woff2'),
+        url('MuseoSlab-100.woff') format('woff'),
+        url('MuseoSlab-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 500';
+    src: url('MuseoSlab-500.woff2') format('woff2'),
+        url('MuseoSlab-500.woff') format('woff'),
+        url('MuseoSlab-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 500';
+    src: url('MuseoSlab-500Italic.woff2') format('woff2'),
+        url('MuseoSlab-500Italic.woff') format('woff'),
+        url('MuseoSlab-500Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+

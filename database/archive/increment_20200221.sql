@@ -1,0 +1,1 @@
+ALTER TABLE `vouchers` ADD `billingStatus` INT(11) NULL DEFAULT '0' AFTER `group_id`, ADD `billingType` VARCHAR(255) NULL DEFAULT NULL AFTER `billingStatus`, ADD `billingFields` LONGTEXT NULL DEFAULT NULL AFTER `billingType`, ADD `voucherFactor` VARCHAR(255) NULL DEFAULT NULL AFTER `billingFields`;

@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `user_notifications` VARCHAR(500) NOT NULL DEFAULT '{\"is_pointme_user\":true,\"email_subsc:true,\"mail_subscribed_flag\":true}' AFTER `contact_no`;ribed_flag\":true,\"sms_subscribed_flag\":true,\"is_pointme_notifications\"

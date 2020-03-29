@@ -1,0 +1,172 @@
+
+*{ padding: 0px; margin: 0px; box-sizing: border-box; }
+.sur {
+    width: 100%;
+    height: 250px;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('../../../assets/css/fonts/MuseoSans-500.woff2') format('woff2'),
+    url('../../../assets/css/fonts/MuseoSans-500.woff') format('woff'),
+    url('../../../assets/css/fonts/MuseoSans-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url('../../../assets/css/fonts/MuseoSans-700.woff2') format('woff2'),
+    url('../../../assets/css/fonts/MuseoSans-700.woff') format('woff'),
+    url('../../../assets/css/fonts/MuseoSans-700.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 500';
+    src: url('../../../assets/css/fonts/MuseoSlab-500.woff2') format('woff2'),
+    url('../../../assets/css/fonts/MuseoSlab-500.woff') format('woff'),
+    url('../../../assets/css/fonts/MuseoSlab-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 700';
+    src: url('../../../assets/css/fonts/MuseoSlab-700.woff2') format('woff2'),
+    url('../../../assets/css/fonts/MuseoSlab-700.woff') format('woff'),
+    url('../../../assets/css/fonts/MuseoSlab-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab 900';
+    src: url('../../../assets/css/fonts/MuseoSlab-900.woff2') format('woff2'),
+    url('../../../assets/css/fonts/MuseoSlab-900.woff') format('woff'),
+    url('../../../assets/css/fonts/MuseoSlab-900.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+.sv_q_title{ color: #575756 !important; font-size: 18px !important;; font-weight: 700; line-height: 1em; letter-spacing: 0.56px; padding-bottom: 20px; }
+
+.sv_q_title span:first-child{ display: inline-block; vertical-align: middle; color: #e30613; padding-right: 10px; border-right: 2px solid #e30613;}
+.sv_q_title span { color: #575756; font-family: 'Museo Sans 700';}
+.sv_q_title span:last-child{ padding-left: 10px }
+.sv_q_title span:nth-child(2){ display: none; }
+
+input.sv_q_text_root{ width:100%; font-size:14px !important; line-height:30px !important; color:#a3a4a4 !important; padding:8px 15px 8px 15px !important; background:#fff;
+    transition:all 0.3s ease; opacity:1; box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.1); border: 0px none !important; height: auto !important;    color: #575756!important;
+    font-family: 'Museo Sans 500'!important;-webkit-appearance: none !important;
+    border-radius: 0 !important;;border: 0px !important; }
+
+.sv_header{ background: #F7F8F8 !important; }
+.sv_header h5{ margin: 0px; }
+
+
+.sv_header h3{ width:100%; position:relative; padding:0px 10px 0px 7px; text-transform: capitalize;  border-left:3px solid #575756; }
+
+/*.sv_header h3 span{ font-size: 36px; line-height: 0.8em; color:#fff; font-family: 'Museo Slab 500'; padding-bottom:7px; }*/
+
+.sv_header h3 span{ font-size: 58px !important; line-height: 0.8em; color:#575756; font-family: 'Museo Sans 700'; display: inline-block; position: relative !important; }
+
+.sv_header h3 span:after{ content:""; width:12px; height:38px; background:url(../../../assets/images/red_arrow_down.png) no-repeat left center; background-size:100% auto; position:absolute; right:-25px; bottom:-20px; }
+
+.sv_q_dropdown_control{-webkit-appearance: none !important;
+    border-radius: 0 !important;;border: 0px !important;  width:100%; font-size:16px !important; line-height:30px !important; color:#a3a4a4 !important; padding:10px 40px 10px 20px !important;
+    cursor: pointer;  transition:all 0.3s ease; opacity:1; box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.1); border: 0px none !important; height: auto !important; font-family: 'Museo Sans 500';
+    background:url(../../../assets/images/dropdown_aero.png) no-repeat right 10px center !important; background-size: 16px auto !important;  background-color:#fff !important; }
+
+
+/*
+.sv_q_radiogroup label input{ width: 20px !important; height: 20px !important; background:url(../../../assets/images/pl_radio_uncheck.png) no-repeat left center !important; background-size: 100% auto !important; -webkit-appearance: none; -appearance: none; }
+.sv_q_radiogroup.checked label input{ width: 20px !important; height: 20px; !important; background:url(../../../assets/images/pl_radio_checked.png) no-repeat left center !important; background-size: 100% auto !important; -webkit-appearance: none; -appearance: none; }
+*/
+
+.sv_q_radiogroup label input{ width: 21px !important; height: 21px !important; background:url(../../../assets/images/sprite_image.png) no-repeat left top !important;background-position-x: -77px !important;  -webkit-appearance: none; -appearance: none; border: 0px !important; }
+.sv_q_radiogroup.checked label input{ border: 0px !important;  width: 21px !important; height: 21px; !important; background:url(../../../assets/images/sprite_image.png) no-repeat left top !important;background-position-x: -52px !important;  -webkit-appearance: none; -appearance: none; }
+
+
+
+
+.sv_q_radiogroup label span{ font-size: 16px !important; font-family: 'Museo Sans 500'; }
+
+
+
+.sv_main input[type="button"], .sv_main button { background-color:  #e30613;     padding: 5px 0px; cursor: pointer;-webkit-appearance: none;
+    border-radius: 0;}
+
+
+/*
+.sv_q_checkbox label input{ width: 20px !important; height: 20px !important; background:url(../../../assets/images/uncheck_bttn.png) no-repeat left center !important; background-size: 100% auto !important; -webkit-appearance: none; -appearance: none; }
+.sv_q_checkbox.checked label input{ width: 20px !important; height: 20px; !important; background:url(../../../assets/images/check_bttn.png) no-repeat left center !important; background-size: 100% auto !important; -webkit-appearance: none; -appearance: none; }
+*/
+
+.sv_q_checkbox label input{ border: 0px !important;  width: 22px !important; height: 20px !important; background:url(../../../assets/images/sprite_image.png) no-repeat left center !important; background-position-x: -25px !important; -webkit-appearance: none; -appearance: none; }
+.sv_q_checkbox.checked label input{ border: 0px !important;  width: 22px !important; height: 20px; !important; background:url(../../../assets/images/sprite_image.png) no-repeat left center !important; background-position-x: 0px !important; -webkit-appearance: none; -appearance: none; }
+
+
+
+.sv_q_checkbox label span{ font-size: 16px !important; font-family: 'Museo Sans 500'; }
+
+.sv_main .sv_body {background-color: #F7F8F8 !important; border: 0px !important;padding: .5em 1em 1.6428em 1em !important }
+body {background-color: #F7F8F8 !important; }
+.sv_main .sv_p_root > .sv_row{background-color: #F7F8F8 !important; border: 0px !important; }
+
+.sv_q_title span:first-child {display: inline-block; vertical-align: top; width: 12px;}
+.sv_q_title span:last-child { display: inline-block; vertical-align: top; width: 84%;    padding-bottom: 25px;}
+
+.sv_q_radiogroup , .sv_q_checkbox  { padding-bottom: 10px;}
+
+.sv_main .sv_q_rating_item.active .sv_q_rating_item_text {    background-color: #e30613!important;
+    border-color: #e30613!important;}
+
+.sv_main .sv_q_rating_item .sv_q_rating_item_text:hover {
+    border-color: #e30613!important;}
+
+
+.sv_main .sv_container .sv_body .sv_nav {
+    background: #F7F8F8 !important;
+    position: fixed!important;
+    padding: 10px 10px!important;
+    height: auto !important;
+    left: 0px!important;
+    bottom: 0px!important;
+    width: 100%!important;
+    box-sizing: border-box!important;
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.1)!important;}
+
+.sv_select_wrapper { margin-bottom: 25px;}
+
+.sv_header h5 {
+    margin-top: 15px;
+}
+.sv_main .sv_select_wrapper:before {
+    background-color: transparent !important;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    #surveyElement{ height: calc(100vh - 50px); overflow-y: auto; -webkit-overflow-scrolling: touch;
+        overflow-x: hidden; padding-bottom: 44px}
+}
+.sv_main .sv_container .sv_body .sv_nav{ bottom: 44px !important; }
+
+
+
+/***********************/
+

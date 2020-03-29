@@ -1,0 +1,692 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (width: 1920px)  {
+
+
+
+
+
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+
+
+    .compaign_progressBar {  padding: 35px 25px 25px;}
+
+    .creative_topCircle_bar ul li { padding:0px 1%;}
+
+    .menu ul li  { padding:0px 2%;}
+
+    .chanel_chart_description { width: 52%;}
+
+    .chanel_chart { width: 43%;}
+
+    .cL_listing_table_row { padding:0px 10px;}
+
+
+    .cL_listing_table_cell { padding: 0px 5px;}
+
+
+    .cL_listing_tableOut { padding:20px;}
+
+    .cl_rowEdit_popOut_tableRow_cell{ width:72px;}
+
+    .quickOreview_summery .segmentSize {  padding-left: 3%; }
+
+    .summeryAge_column .chanel_chart_description { width: 60%;  padding-right: 3%; }
+
+    .searchMember_table ul li .cL_listing_table_row { padding: 10px 10px; }
+
+    .segmentsOptions { padding: 20px 4% 40px; }
+
+
+    .segmentSize_text strong { font-size:36px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1240px) and (max-width: 1365px) {
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    .menu ul li a b { font-size:12px;}
+
+    .autoContent { padding:0px 15px;}
+
+    .menu ul li { padding:0px 2%;}
+
+    .compaignstabsBttns a { padding: 0px 10px;  min-width: 155px; }
+
+    .compaignHeadigs p br { display:none}
+
+    .creative_topCircle_barBtn small { display:none;}
+
+    .creative_topCircle_bar ul li { padding:0px 3%;}
+
+
+    .compaign_segments {padding: 20px 15px;}
+
+    .segment_tYpe_detail{padding: 15px;}
+
+    .segmentsBuilder_container { padding-top: 20px ; }
+
+    .segmentsAccordianList { padding:15px;}
+
+    .accordianIcons b  { width: 32px; height: 32px; font-size: 12px; line-height: 30px;  margin-bottom: 0px; }
+
+    .accordianIcons small {  font-size: 12px;  padding-left: 20px; }
+
+    .acordianSeprator { left:16px;}
+
+    .dragAccordianData { padding:10px;}
+
+    .dragAccordianData h4 { font-size:10px;}
+
+    .dragAccordianData::after { left:-36px;width: 36px;}
+
+    .showAccordian_data { padding-left:52px;}
+
+    .compaign_progressBar { margin-bottom:30px;}
+
+    .compaignType_detail {  padding: 25px 20px;}
+
+    .compaignType_detail span {width:74px !important; height:74px !important; margin-bottom: 15px;}
+
+    .compaignType_detail span b {width:74px !important; height:74px !important;}
+
+    .compaignType_detail h3 {  font-size: 18px;  padding-bottom: 20px;  margin-bottom: 22px; }
+
+    .compaignType_detail p { font-size: 13px; line-height: 20px; padding-bottom: 25px; }
+
+    .compaignType_detail a { line-height: 40px;  font-size: 16px; }
+
+    .venueHead h4 { width:80%; margin:auto;}
+
+    .showOptions { margin:0px !important; left:auto !important; right:0px !important;}
+
+    .column_dboard_widget { padding:15px;}
+
+    .venueDropdown { width: 55%; }
+
+    .venueHighChart_outer {  padding: 0px 15px 25px; }
+
+    .chanel_chart { width: 28%; }
+
+    .chanel_chart_description { width: 67%; }
+
+    .chanel_descriptionList_text { padding-bottom: 6px; padding-top: 7px; }
+
+    .activeCompaign_icon { margin-top: 4px; }
+
+    .activeCompaignColumn .column_dboard_widgetDetail { width: calc(100% - 95px);  margin-left: 10px; }
+
+    .column_dboard_widgetDetail strong { font-size: 36px;}
+
+    .column_dboard_widgetDetail small { font-size: 13px;}
+
+    .activeCompaignColumn .column_dboard_widgetBttn { margin-top: 24px; }
+
+    .column_dboard_widgetBttn { margin-top:30px;}
+
+    .cL_listing_tableOut { padding:15px;}
+
+    .selectCompaign {  width: 26%; margin-right: 10px; }
+
+    .searchCompaign {  width: 28%;}
+
+    .cL_listing_table_row { padding:0px 5px;}
+
+    .cL_listing_table_cell { padding:0px 5px; vertical-align: top;}
+
+    .cL_listing_tableTitle strong { font-size:12px;}
+
+    .cL_rowList_number { font-size:11px;}
+
+    .cl_rowEdit_popOut_tableRow_cell { width:55px;}
+
+    .segment_tYpe_columns ul li .compaignType_detail h3 { font-size:16px;}
+
+    .segment_tYpe_columns ul li .compaignType_detail {  padding: 25px 15px 10px; }
+
+    .segmentSummery_detail { padding:15px;}
+
+    .quickPreview_detail {  padding: 20px 15px; }
+
+    .segmentSize_text strong { font-size: 32px; }
+
+    .segmentSize_text small { font-size:12px;}
+
+    .segmentSize_icon img { width: 28px;}
+
+    .segmentSize_icon {  width: 30px;}
+
+    .segmentSize_text { width: calc(100% - 35px);}
+
+    .overview_bars {  width: 58%;}
+
+    .segmentSize { width: 24%;}
+
+    .addedSegmentd {  width: 18%;}
+
+    .addedSegmentd p { font-size:12px;}
+
+    .criterias_heading h3 { font-size: 18px;  line-height: 2;}
+
+    .segmentsOptions_detail span {width:74px !important; height:74px !important; margin-bottom: 15px;}
+
+    .segmentsOptions_detail span b {width:74px !important; height:74px !important;}
+
+    .segmentsOptions_detail h3 { font-size: 16px;}
+
+    .segmentsOptions {  padding: 20px 2% 40px; }
+
+    .addMember_removeMemberBttn a {  line-height: 35px; font-size: 12px;  min-width: 140px; }
+
+    .gammingTurn_placeholder { width: 45%;}
+
+    .gammingValue_outer { width: 54%;}
+
+    .gammingValue_outer small { font-size:24px;}
+
+    .gammingValue_outer strong { font-size:24px; line-height:44px; height:44px;}
+
+    .gammingValue_outer input { font-size:24px;line-height:44px; height:44px;}
+
+    .quantity input { padding-left:10px;}
+
+    .recentTicket_incrimenter label {  font-size:12px; line-height:20px;}
+
+    .stateSegmentation { padding:15px;}
+
+    .irs-from, .irs-to, .irs-single { top: -8px !important; }
+
+    .poitBalance_div { margin-top:0px;padding: 8px 5px;}
+
+    .poitBalance_div span { font-size: 24px;}
+
+    .customDropDown span { padding:0px 12px; font-size:12px;}
+
+
+    .numberFields input  {font-size:24px;line-height:44px; height:44px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 767px)   {
+
+
+    .signInWeb_autoContainer { width:96%; margin:auto;}
+
+    .signInWeb_detail { padding-top:60px;}
+
+    .signInWeb_view { padding:40px 30px; min-height:100%; margin-bottom:35px;}
+
+    .signUp_logo {  width: 139px;  padding-bottom: 30px; }
+
+    .splash_background { background-size:auto;}
+
+    .signUp_copyRights { padding-bottom:30px;}
+
+
+
+    .header_navebar_editDots {  width: 16%;  height: 48px; max-width:48px; background-size: 18px 20px; }
+
+    .headerNave_mid { display:none;}
+
+    .headerNave_left { width: 100%; padding-bottom:5px;  }
+
+    .headerNave_right { width: 100%;  }
+
+    .header_nave_inner {  padding: 15px  15px }
+
+    .headerNave_pro_userName p { font-size: 24px;  width: 84%; border-right: 0px; height: 48px; line-height: 48px; margin-top: 0px; padding-left: 0px; text-align: center; }
+
+    .headerNave_rightInn { width: 100%; padding-top: 0px; text-align: center; }
+
+    .headerNave_rightInn ul { float: none; }
+
+    .headerNave_rightInn ul li { float: none; padding: 0px 10px; display: inline-block; vertical-align: middle; }
+    .alertBell_icon { margin-right:0px;}
+
+    .autoContent { padding: 0px 15px; max-width: 100%; }
+
+    .menu { padding-top: 18px; }
+
+    .menu ul li { padding: 0px 5px 10px; }
+
+    .menu ul li a { padding-left: 0px !important; background: no-repeat; }
+
+    .menu ul li a b { font-size: 12px;  padding-bottom: 5px; }
+
+    .compaignstabsBttns a { margin: 0px 0px; padding: 0px 10px; min-width: 0px; font-size: 10px; }
+
+    .compaignHeadigs h1 { font-size: 24px;}
+
+    .compaignHeadigs p { font-size: 14px; line-height: 20px; }
+
+    .cL_listing_tableOut { padding:15px;}
+
+    .compaign_select_search { padding:10px 10px 10px;}
+
+    .selectCompaign { width: 100%; float: none; margin-right: 0px; margin-bottom: 5px; }
+
+    .searchCompaign { width: 100%; float: none; margin-right: 0px;  padding: 5px 8px 5px 15px; }
+
+    .compaign_addNew h3 { padding-top:0px; float:none; padding-bottom:12px;}
+
+    .compaign_addNew a { float:none;}
+
+    .campLstng_paginaton_inn ul li a { width: 22px; height: 22px; line-height: 22px; }
+
+    .compaign_progressBar { padding: 20px 10px;}
+
+    .creative_topCircle_barBtn small { display:none;}
+
+    .creative_topCircle_bar ul li {  padding: 0px .8%; }
+
+    .creative_topCircle_barBtn b {  width: 27px; height: 27px; font-size: 12px; line-height: 24px;  margin-bottom: 0px; }
+
+    .countSeprator { top:14px;}
+
+    .compaign_progressBar { margin-bottom:40px;}
+
+    .compaign_segments { padding: 15px 10px; margin-bottom: 20px; }
+
+    .segment_tYpe_detail { padding: 10px; }
+
+    .segment_tYpe_heading { padding: 10px; }
+
+    .segmentsBuilder_container { padding-top: 20px; }
+
+    .segmentsSection_left { float:none; width:100%; margin-bottom:20px;}
+
+    .segmentsAccordianList {  padding: 10px; }
+
+    .segments_accordian ul li {  margin: 10px 0%; }
+
+    .accordianIcons b  { width: 27px; height: 27px; font-size: 12px; line-height: 24px;  margin-bottom: 0px; }
+
+    .acordianSeprator { left:14px;}
+
+    .accordianIcons small { font-size: 12px;  padding-left: 20px; }
+
+    .segmentsSection_right{ float:none; width:100%;  }
+
+    .segment_heading { padding: 10px; }
+
+    .image_notify_upload_area { height:200px;}
+
+    .segment_tYpe { margin-bottom:10px;}
+
+    .continueCancel { text-align:center;}
+
+    .continueCancel input { line-height: 34px; font-size: 12px;  min-width: 40%; margin: 0px 5px; vertical-align: middle; }
+
+    .continueCancel a {  line-height: 34px; font-size: 12px;  min-width: 40%; margin: 0px 5px;vertical-align: middle; }
+
+
+    .segmentaxn_detail { padding: 10px; }
+
+    .genderSelected ul li span b { width:40px !important ; height:40px !important; background-size: 9px 25px;}
+    .genderSelected ul li span { font-size:12px;}
+
+    .genderSelected ul li span b.genderFemale { background-size: 11px 25px;}
+    .genderSelected ul li span b.genderOther { background-size: 11px 25px;}
+
+    .genderSelected ul li span b i { background-size: 20px 20px;   width: 20px; height: 20px;right: -11px; top: -9px; }
+
+    .genderSelected { padding: 15px 10px; }
+
+    .stateSegmentation { padding: 15px 10px; }
+
+    .tagsCompaigns_list { width: 100%; float: none; padding-bottom:40px; }
+    .tagsSelected_tip { width: 100%; float: none; padding-bottom:20px; }
+
+    .selectedTags label { padding-bottom:10px !important;}
+
+    .showAccordian_data { padding-left:48px;}
+
+    .dragAccordianData { padding:10px;}
+
+    .dragAccordianData h4 { font-size:10px;}
+
+    .dragAccordianData::after { left:-35px;width: 35px;}
+
+
+    .segment_tYpe_columns ul li {width:100%; display:block; padding:0px; padding-bottom:40px;}
+
+    .segment_tYpe_columns ul li .compaignType_detail { padding:0px;}
+
+    .segment_tYpe_columns ul li .compaignType_detail span { margin-bottom:15px;}
+
+    .segment_tYpe_columns { padding-top:40px;}
+
+    .singleSegment_section { padding:0px;}
+
+    .singleSegment_section .tagsSelected_tip {  width: 100%; float: none; margin-left: 0px; }
+
+    .segmentInput {  padding: 8px 15px; }
+
+    .compaignDescription_column6 { width: 100%;  float: none; padding-bottom:20px; }
+
+    .segmentInput textarea { height:120px;}
+
+    .compaignTags_discription { padding-bottom:0px;}
+
+    .compaignHeadigs p br { display:none;}
+
+    .placeHolderLeft { width: 100%; float: none; padding-bottom:15px; }
+
+    .frPlaceholder { margin:0px;}
+
+    .datePickerLeft{ width: 100%; float: none; padding-bottom:15px; }
+
+    .memberPlaceholder_point { width: 100%;  float: none; padding-bottom:10px; }
+
+    .poitBalance_div {  width: 100%; margin: 0px 0px 10px ; float:none; }
+
+    .placeHolderOuter { padding-bottom:0px;}
+
+    .frBalance { float:none;padding-bottom:0px;}
+
+    .datePickerOuter {  width: 100%;   padding-top: 15px; }
+
+    .frDatePicker { padding-bottom:0px;}
+
+    .memberNumber_placeholder { width: 100%; float: none; padding-bottom:15px; }
+
+    .memberNumbe { width: 100%; float: none; }
+
+    .addMember_removeMemberBttn a { line-height: 34px; min-width: 40%;  }
+
+    .gamming_bttnz .addMember_removeMemberBttn a { margin-right:6px; margin-left:0px;}
+
+    .gammingTurn_placeholder { width: 100%; float: none;  padding-bottom: 10px; }
+
+    .gammingValue_outer { width: 100%; float: none; }
+
+    .transectionDatepicker { width: 100%; float: none; }
+
+    .datePicker input { font-size:11px; }
+
+    .date1 ,.date2{ padding-left:23px !important}
+
+    .gammingTurnOuter { padding-bottom:0px;}
+
+    .cancelcredit_amout .cancelcredit_amout_values {  width: 100%;  float: none; }
+    .cancelcredit_amout { padding-bottom:0px;}
+
+    .recentTicket_incrimenter {  width: 100%;  float: none; padding-bottom:10px; }
+
+    .recentTicket_incrimenter label { width:100%; float:none; padding-top:0px;}
+
+    .fieldIncremnt {  width: 100%; float: none; }
+
+    .quantity input { width:80%;}
+
+    .quantity-nav { width:20%;}
+
+    .quantity-nav .quantity-up { margin:auto; margin-bottom:6px;}
+    .quantity-nav .quantity-down { margin:auto;}
+
+    .incrimentDay{  width: 100%; float: none; }
+
+    .yourSeg_age_rangeSlct .irs-min { font-size:11px !important;}
+
+    .yourSeg_age_rangeSlct .irs-max { font-size:11px !important;}
+
+    .irs-from, .irs-to, .irs-single{  top: -10px !important; }
+
+    .segmentSummery_detail {  padding: 15px 10px; }
+
+    .quickPreview_detail { padding: 10px; }
+
+    .segmentSize {  width: 100%; float: none; padding-top: 0px;  padding-bottom: 20px; }
+
+    .overview_bars { width: 100%;  float: none;  padding-top: 0px;  padding-bottom: 15px; }
+
+    .overview_bars_label label { font-size:12px;}
+    .overview_bars_value strong { font-size:14px;}
+
+    .overview_bars_range { margin-top:9px;}
+
+    .addedSegmentd { width: 100%; float: none;  padding-bottom: 10px; }
+
+    .criterias_heading h3 { font-size: 16px; line-height: 28px; }
+
+    .democretic_gender { width: 100%; float: none; }
+
+    .democretic_gender.democretic_age {   width: 100% ;  float: none; }
+
+    .criteria_detail .dropSegmentation_section { margin-bottom:10px;}
+
+    .demographic_stateBarrs_label { width: 100%; float: none; padding: 10px; }
+
+    .dropSegmentation_heading h3 { padding:8px 10px;}
+
+    .democretic_ageDetail_graph { padding: 10px 10px 0px; }
+
+    .demographic_progressBar::after { display:none;}
+
+    .demographic_progressBar { width:100%; border-top:1px solid #d2d6dd; padding: 5px 10px;}
+
+    .demographic_progressBar_label {  width: 22%;  }
+
+    .demographic_progressBar_label label { font-size:12px;}
+
+    .demographic_progressBar_range { width: 60%;}
+
+    .demographic_progressBar_value {  width: 18%;}
+
+    .segmentsCriterias { padding-top:20px;}
+
+    .modifySegments_detail { padding:15px 10px;}
+
+    .addMember_removeMember h3 { padding-top:0px; padding-bottom:10px; float:none;}
+
+    .addMember_removeMemberBttn { float:none; width:100%;}
+
+    .addMember_removeMember .addMember_removeMemberBttn a { display:block; min-width:100%; margin:0px 0px 10px;}
+
+    .addMember_removeMember { padding-bottom:0px;}
+
+
+    .segmentsOptions ul li { width:100%; float:none; padding: 0px 0px 40px;}
+
+    .segmentsOptions_detail span { margin-bottom:15px;}
+
+    .segmentsOptions { padding:0px;}
+
+    .quickOreview_summery .segmentSize { width:100%; padding-left:0px}
+
+    .quickOreview_summery .overview_bars { width:100%;}
+
+    .quickOreview_summery .democretic_genderDetail { width:100%;}
+
+    .summeryAge_column ul { width:100%;}
+
+    .summeryAge_column ul li { width:100%; float:none; padding:0px 0px 0px;}
+
+    .ageColumn{ width:100% !important;}
+
+    .summeryAge_column .chanel_chart { width: 50%;  padding-left: 0px;  margin: auto; float: none; padding-bottom:20px; }
+
+    .summeryAge_column .chanel_chart_description{ width: 100%;  padding-right: 0px;   float: none;   }
+
+    .compaignsType ul li {  width: 100% ; padding: 0px 0px 20px; }
+
+    .no_compaign_avail {  padding: 50px 35px; }
+
+    .no_compaign_avail h1 {font-size:24px;}
+
+    .no_compaign_avail p br { display:none;}
+
+    .no_compaign_avail p  { padding-bottom:40px;font-size: 14px; line-height: 20px;}
+
+
+    .memberChartOuter ul li { width:100%; padding:0px 0px 20px; float:none;}
+
+    .point_member { width:100% !important}
+
+    .venueHead h4 { width:80%; margin:auto;}
+
+    .dashborad_column { padding-bottom:0px; margin-bottom:0px;}
+
+    .dashborad_Totalcolumn ul li { width:100%;; float:none; padding:0px 0px 20px;;}
+
+    .showOptions { margin: 0px 0px 0px 0px !important; left: auto !important;  right: 0px !important; }
+
+    .showOptions li { padding:0px !important}
+
+    .column6_db { width:100%; float:none; margin-bottom:20px;}
+
+    .venueDropdown { width: 70%;}
+
+    .venueHighChart_outer { padding: 0px 10px 25px; }
+
+    .chanel_chart { width:60%; margin:auto; padding-bottom:20px; float:none;}
+
+    .chanel_chart_description { width:90%; float:none; margin:auto;}
+
+    .barrGrapgh { padding-top:0px;}
+
+    .activeHeading { padding:20px;}
+
+    .dashborad_Totalcolumn { padding-bottom:20px;}
+
+
+
+
+
+
+
+
+    .cL_listing_tableInn ul li.active_editMod .cL_listing_table_row{ margin-left:0px !important; }
+
+    .cL_listing_tableTitle{ display:none; }
+
+    .cL_listing_table_row{ width:100%; display:block; }
+
+    .cL_listing_table_cell{ width:100% !important; display:block; padding:0px 0px 15px 0px; text-align:center; }
+
+    .audienceTrnctional_listTbl_out .cL_listing_table_cell.cell6, .audienceTrnctional_listTbl_out .cL_listing_table_cell.cell7, .audienceTrnctional_listTbl_out .cL_listing_table_cell.cell8{ text-align:center; }
+    .audienceLoyalty_listTbl_out .cL_listing_table_cell.cell6, .audienceLoyalty_listTbl_out .cL_listing_table_cell.cell7, .audienceLoyalty_listTbl_out .cL_listing_table_cell.cell8, .audienceLoyalty_listTbl_out .cL_listing_table_cell.cell9{  text-align:center; }
+
+    .cL_rowList_number{ text-align:center; }
+
+
+    .cl_rowEdit_popOut{ width:35% !important; right:inherit; top:inherit; bottom:0px;  left:-35% !important; height:auto;  }
+
+    .cl_rowEdit_pop_table{ width:100%; display:block; height:auto; }
+
+    .cl_rowEdit_popOut_tableRow_cell{ width:100%; display:block; border-bottom:1px solid #fff; }
+
+    .cl_rowEdit_popOut_tableRow_cell a{ padding:5px 15px; }
+
+    .cl_rowEdit_popOut_tableRow_cell a i{ background-size:18px auto ; min-height:20px; }
+
+    .active_editMod .cl_rowEdit_popOut{ right:inherit !important; left:0% !important; }
+
+    .cl_rowEdit_popOut_tableRow_cell a.delete_icon i { background-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}   
+

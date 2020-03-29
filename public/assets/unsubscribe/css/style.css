@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+@font-face {
+font-family: 'milkshakeregular';
+src: url('fonts/milkshake-webfont.woff2') format('woff2'),
+     url('fonts/milkshake-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Brandon Grotesque Regular';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Brandon Grotesque Regular'), url('fonts/Brandon_reg.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Brandon Grotesque Thin';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Brandon Grotesque Thin'), url('fonts/Brandon_thin.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Brandon Grotesque Light';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Brandon Grotesque Light'), url('fonts/Brandon_light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Brandon Grotesque Medium';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Brandon Grotesque Medium'), url('fonts/Brandon_med.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Brandon Grotesque Bold';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Brandon Grotesque Bold'), url('fonts/Brandon_bld.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Brandon Grotesque Black';
+font-style: normal;
+font-weight: normal;
+src: local('fonts/Brandon Grotesque Black'), url('fonts/Brandon_blk.woff') format('woff');
+}
+
+
+article, aside, footer, header, nav, section, figcaption, figure {  display: block; }
+
+*{box-sizing:border-box;}
+
+*{margin:0px;padding:0px;}
+
+ul li{list-style:none; }
+
+a{text-decoration:none;  }
+
+em{ font-style:normal; }
+
+.clr{clear:both;}
+
+input, textarea, select{ border:0px none; background:none; outline:none; font-family: 'Brandon Grotesque Regular'; }
+
+img{ outline:none; max-width:100%; height:auto; border:0px none; display:block; }
+
+h1, h2, h3, h4, h5, h6, strong, b{ font-weight:normal; font-family: 'Brandon Grotesque Regular'; }
+
+input[type='submit']{  border-radius:0px; -webkit-appearance:none; appearance:none; outline:none; }
+
+textarea{ resize:none; overflow:auto; }
+
+:focus{ outline:none;}
+
+.clearfix:after{content:""; display:block; clear:both; height:0px; visibility:hidden;}
+
+.clearfix{ display:block; zoom:1; }
+
+html { position:relative; width:100%; height:100%; }
+
+body{width:100%; font-size:14px; color:#414140; background-color:#f5f8f9; font-family: 'Brandon Grotesque Regular'; -webkit-font-smoothing: antialiased; overflow-x:hidden; position:relative; } 
+
+.hidden, body.hidden{ overflow:hidden; }
+
+ul , label, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, figure{ margin-bottom:0px !important; }
+
+/*********************************start the style*********************************/
+
+.wrapper{ width:100%; height:100%; position:relative; transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;-webkit-transition:all .3s ease;  }
+
+
+/******************************Start GBK unsubscribe page style******************************/
+
+
+.g_unsubscribe_main { width: 100%; position: absolute; height: 100vh; left: 0px; top: 0px; z-index: 99999; }
+
+.g_unsubscribe_inner { width:100%; height:100%; display:table; table-layout:fixed; padding:50px 15px; }
+
+.g_unsubscribe_detail {  width:100%; height:100%; display:table-cell; vertical-align:middle; }
+
+.g_unsubscribe_box { width:100%; max-width:1000px; background:#fff; margin:0px auto; box-sizing:border-box; box-shadow: 0 0 16px 0 rgba(87, 87, 86, 0.20); }
+
+.g_unsubscribe_header{ width: 100%; padding:50px; background: #fdc23c; position: relative; }
+
+.g_unsubscribe_headerLogo{ width: 100%; }
+
+.g_unsubscribe_headerLogo a{ max-width: 270px; margin: auto; display: block; }
+
+.g_unsubscribe_headerLogo a img{ max-width: none; width: 100%; height: auto; display: block; }
+
+.g_unsubscribe_content{ width: 100%; padding:50px 30px 40px; background-color: #ffffff; }
+
+.g_unsubscribe_text{ max-width: 470px; margin: auto; text-align: center; }
+
+.g_unsubscribe_text strong{ font-size: 80px; line-height: 1em; color: #fdc23c; font-family: 'milkshakeregular'; display: inline-block;
+ padding-bottom: 50px; position: relative; }
+
+.g_unsubscribe_text strong i{ display: inline-block; font-size: 20px;line-height: 1em; font-style: normal; color: #414140;
+ font-family: 'Brandon Grotesque Bold'; position: absolute; top: 0px; left:58px; }
+
+.g_unsubscribe_text strong span{ display: inline-block; font-size: 18px;line-height: 1em; color: #414140;
+ font-family: 'Brandon Grotesque Medium';position: absolute; bottom: 36px; left: -45px; }
+
+.g_unsubscribe_text p{ font-size: 18px; line-height: 1.5em; color: #414140; font-family: 'Brandon Grotesque Regular'; padding-bottom: 35px; }
+
+.g_unsubscribe_text a{ font-size: 18px; line-height: 1.5em; color: #414140; font-family: 'Brandon Grotesque Bold'; transition: all 0.3s ease; display: inline-block; }
+.g_unsubscribe_text a:hover{ color:#fdc23c; }
+
+.g_unsubscribe_footer{ width: 100%; padding: 30px; background: #fdc23c; }
+
+.g_unsubscribe_button{ width:100%; max-width: 300px; margin: auto; }
+
+.g_unsubscribe_button a{ font-size:14px; line-height:22px; color:#fff; padding:12px 20px; display: block; text-align:center;
+ cursor:pointer; transition:all 0.3s ease; appearance:none; -webkit-appearance:none; border:0px none; letter-spacing: 1px;
+  background: #414140; border-radius: 50px; text-transform: uppercase; font-family: 'Brandon Grotesque Bold'; }
+
+.g_unsubscribe_button a:hover{ color:#414140; background:#fff; }
+
+
+/******************************End GBK unsubscribe page style******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

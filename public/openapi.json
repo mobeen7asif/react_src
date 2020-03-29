@@ -1,0 +1,159 @@
+{
+  "openapi" : "3.0.0",
+  "info" : {
+    "title" : "Test_First_Api",
+    "description" : "some test description of test api",
+    "termsOfService" : "http://elementarylogics.com",
+    "contact" : {
+      "name" : "Elementary",
+      "url" : "elementarylogics.com",
+      "email" : "elementary@gmail.com"
+    },
+    "license" : {
+      "name" : "elementary logic",
+      "url" : "elemenatrylogics.com"
+    },
+    "version" : "1.0"
+  },
+  "servers" : [ {
+    "url" : "http://dev-ispt.darkwing.io/api",
+    "description" : "dev server for api"
+  }, {
+    "url" : "http://ispt.darkwing.io/api",
+    "description" : "live server"
+  } ],
+  "paths" : {
+    "/getTestApi" : {
+      "get" : {
+        "description" : "getting all employee from database",
+        "parameters" : [ {
+          "name" : "company_id",
+          "in" : "query",
+          "description" : "some description of parameter",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "maximum" : 20,
+            "minimum" : 10,
+            "type" : "integer",
+            "format" : "int32",
+            "example" : 15
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "some description of response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "properties" : {
+                      "id" : {
+                        "type" : "integer",
+                        "format" : "int32",
+                        "example" : 4
+                      },
+                      "name" : {
+                        "type" : "string",
+                        "example" : "ahmad"
+                      },
+                      "age" : {
+                        "type" : "integer",
+                        "format" : "int32",
+                        "example" : 25
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/shopCategories" : {
+      "post" : {
+        "description" : "Descripiton of post api",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/body"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "description" : "infromation posted successfully"
+          }
+        }
+      }
+    },
+    "/getUser/{id}" : {
+      "get" : {
+        "description" : "get a single employee",
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "description" : "employee id",
+          "required" : true,
+          "style" : "simple",
+          "explode" : false,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32",
+            "example" : 4
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "some description of response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Employes"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Employes" : {
+        "properties" : {
+          "id" : {
+            "type" : "integer",
+            "format" : "int32",
+            "example" : 4
+          },
+          "name" : {
+            "type" : "string",
+            "example" : "ahmad"
+          },
+          "age" : {
+            "type" : "integer",
+            "format" : "int32",
+            "example" : 25
+          }
+        }
+      },
+      "body" : {
+        "type" : "object",
+        "properties" : {
+          "company_id" : {
+            "type" : "integer",
+            "format" : "int32",
+            "example" : 97
+          }
+        }
+      }
+    }
+  }
+}
